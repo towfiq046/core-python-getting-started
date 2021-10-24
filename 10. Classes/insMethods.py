@@ -1,4 +1,4 @@
-"""Instance Method: Functions which can be called on objects or instances of class."""
+"""Instance Method: Functions which can be called on objects or instances of 10. Classes."""
 
 
 class Flight:

@@ -2,7 +2,7 @@
 
 
 class Flight:
-    """Flight class"""
+    """Flight 10. Classes"""
 
     def __init__(self, flight_number, aircraft):
         if not flight_number[:2].isalpha():
@@ -130,7 +130,7 @@ def console_card_printer(passenger, seat, flight_number, aircraft):
 
 
 class Aircraft:
-    """Aircraft base class"""
+    """Aircraft base 10. Classes"""
     def __init__(self, registration):
         self._registration = registration
 
@@ -165,7 +165,7 @@ class Aircraft:
 
 
 class AirbusA319(Aircraft):
-    """Airbus A319 class"""
+    """Airbus A319 10. Classes"""
 
     def __init__(self, registration):
         super().__init__(registration)
@@ -181,7 +181,7 @@ class AirbusA319(Aircraft):
 
 
 class Boeing777(Aircraft):
-    """Boeing777 class"""
+    """Boeing777 10. Classes"""
     def __init__(self, registration):
         super().__init__(registration)
         self._model = 'Boeing 777'
